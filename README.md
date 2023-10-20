@@ -5,7 +5,7 @@ Chào mừng mọi người đã đến với nhóm 2 của chúng mình. Chúng
 | Tên                 | Avatar                                | Vai trò          |
 |:------------        |:-------------------------------------:|:----------------:|
 | Lê Võ Long Duy      |                                       | Teamlead, dev    |
-| Nguyễn Thành Đạt    | ![image]                              | Scrum master,dev |
+| Nguyễn Thành Đạt    | [![](https://example.com/thumbnail.png)](https://example.com/fullsize.png)          | Scrum master,dev |
 | Nguyễn Đình Nghi    |                                       | Product owner,dev|
 |Phạm Đình Khôi       |                                       | Dev              |
 
