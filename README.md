@@ -36,6 +36,7 @@
 ![image](https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/135969064/0437adfe-eef7-4ede-9461-da09afe6fb17)
 
 ⚡Đề tài của nhóm chúng mình được xây dựng chủ yếu bởi các công nghệ sau đây:
+<br>
 <img src="https://cdn-icons-png.flaticon.com/512/5968/5968332.png" width="50" height="50">
 <img src="https://seeklogo.com/images/L/laragon-logo-D8819D2A8F-seeklogo.com.png" width="50" height="50">
 
