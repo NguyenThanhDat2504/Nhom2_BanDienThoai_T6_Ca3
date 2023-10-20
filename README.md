@@ -7,7 +7,7 @@
 | Lê Võ Long Duy      |<img src="https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/147797810/df91b1ee-088a-49f3-a6ef-9c87a553b168" width="113" height="150">| Teamlead, dev    |
 | Nguyễn Thành Đạt    |<img src="https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/147797810/4a98fb83-da9b-4eff-89d3-f7e23afe8f7f" width="150" height="150">| Scrum master,dev |
 | Nguyễn Đình Nghi    |                                       | Product owner,dev|
-| Phạm Đình Khôi      |<img src="!https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/147797810/3cdf9ee1-23f8-4b46-96a2-33e232235a65" width="150" height="150">| Dev              |
+| Phạm Đình Khôi      |<img src="https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/147797810/05e3bdb0-52a5-461b-bb8d-b2f1c8a43f0a" width="150" height="150">| Dev              |
 
 
 ⚡Bạn đang tìm kiếm một nơi để tìm mua những chiếc điện thoại di động hàng đầu từ các thương hiệu uy tín? Bạn muốn trải nghiệm mua sắm trực tuyến mà không cần lo lắng về tính bảo mật và sự thuận tiện? Mobile Tech sẽ là điểm đến hoàn hảo cho bạn!
