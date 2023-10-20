@@ -36,5 +36,6 @@
 ![image](https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/135969064/0437adfe-eef7-4ede-9461-da09afe6fb17)
 
 
+<img src="https://github.com/FortAwesome/Font-Awesome/blob/6.x/svgs/brands/html5.svg" width="50" height="50">s
 
 
