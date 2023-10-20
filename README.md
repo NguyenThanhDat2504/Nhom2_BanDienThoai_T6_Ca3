@@ -10,22 +10,28 @@
 |Phạm Đình Khôi       |                                       | Dev              |
 
 
-Bạn đang tìm kiếm một nơi để tìm mua những chiếc điện thoại di động hàng đầu từ các thương hiệu uy tín? Bạn muốn trải nghiệm mua sắm trực tuyến mà không cần lo lắng về tính bảo mật và sự thuận tiện? Mobile Tech sẽ là điểm đến hoàn hảo cho bạn!
+⚡Bạn đang tìm kiếm một nơi để tìm mua những chiếc điện thoại di động hàng đầu từ các thương hiệu uy tín? Bạn muốn trải nghiệm mua sắm trực tuyến mà không cần lo lắng về tính bảo mật và sự thuận tiện? Mobile Tech sẽ là điểm đến hoàn hảo cho bạn!
+
+
 ![image](https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/135969064/d6a8dc95-28a4-4c08-b000-b701011678ff)
 
 # Giới thiệu
-Trong bối cảnh cuộc sống hiện đại, điện thoại di động không chỉ là công cụ liên lạc, mà còn là một phần không thể thiếu của cuộc sống hàng ngày. Dự án này tập trung vào việc mang đến trải nghiệm mua sắm trực tuyến tiện lợi và thú vị cho những người đam mê công nghệ.
+
+⚡Trong bối cảnh cuộc sống hiện đại, điện thoại di động không chỉ là công cụ liên lạc, mà còn là một phần không thể thiếu của cuộc sống hàng ngày. Dự án này tập trung vào việc mang đến trải nghiệm mua sắm trực tuyến tiện lợi và thú vị cho những người đam mê công nghệ.
+
 
 ![image](https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/135969064/ab6f49d6-9329-49aa-b929-a80bd14a849e)
 
 
 
-Trang web này được xây dựng với mục tiêu cung cấp một giao diện thân thiện và dễ sử dụng, giúp người dùng dễ dàng tìm kiếm, so sánh và lựa chọn các sản phẩm di động phù hợp với nhu cầu của họ. Từ các mẫu điện thoại mới nhất đến các thiết bị đa dụng, trang web sẽ cung cấp một loạt các lựa chọn để đáp ứng đa dạng nhu cầu của người tiêu dùng.
+⚡Trang web này được xây dựng với mục tiêu cung cấp một giao diện thân thiện và dễ sử dụng, giúp người dùng dễ dàng tìm kiếm, so sánh và lựa chọn các sản phẩm di động phù hợp với nhu cầu của họ. Từ các mẫu điện thoại mới nhất đến các thiết bị đa dụng, trang web sẽ cung cấp một loạt các lựa chọn để đáp ứng đa dạng nhu cầu của người tiêu dùng.
+
 
 ![image](https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/135969064/2355695e-bf63-47a3-a46d-3eaa530c5a53)
 
 
-Với giao diện tối giản và trải nghiệm mua sắm thuận tiện, trang web sẽ giúp người dùng dễ dàng thêm sản phẩm vào giỏ hàng, thực hiện thanh toán an toàn và theo dõi quá trình giao hàng. Dự án này không chỉ dừng lại ở mức độ cơ bản, mà còn có tiềm năng để phát triển và nâng cao trải nghiệm người dùng với các tính năng và chức năng tương tác thú vị.
+⚡Với giao diện tối giản và trải nghiệm mua sắm thuận tiện, trang web sẽ giúp người dùng dễ dàng thêm sản phẩm vào giỏ hàng, thực hiện thanh toán an toàn và theo dõi quá trình giao hàng. Dự án này không chỉ dừng lại ở mức độ cơ bản, mà còn có tiềm năng để phát triển và nâng cao trải nghiệm người dùng với các tính năng và chức năng tương tác thú vị.
+
 
 ![image](https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/135969064/0437adfe-eef7-4ede-9461-da09afe6fb17)
 
