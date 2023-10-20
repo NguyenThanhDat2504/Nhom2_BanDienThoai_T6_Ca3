@@ -8,3 +8,4 @@ Chào mừng mọi người đã đến với nhóm 2 của chúng mình. Chúng
 | Bob         | ![Bob's Avatar](bob.jpg)              | Thiết kế đồ họa  |
 | Carol       | ![Carol's Avatar](carol.jpg)          | Kiểm thử phần mềm|
 
+#Acbc
