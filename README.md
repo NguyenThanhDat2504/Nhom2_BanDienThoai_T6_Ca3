@@ -18,6 +18,8 @@ Trong bối cảnh cuộc sống hiện đại, điện thoại di động khôn
 
 ![image](https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/135969064/ab6f49d6-9329-49aa-b929-a80bd14a849e)
 
+
+## Giới thiệu
 Trang web này được xây dựng với mục tiêu cung cấp một giao diện thân thiện và dễ sử dụng, giúp người dùng dễ dàng tìm kiếm, so sánh và lựa chọn các sản phẩm di động phù hợp với nhu cầu của họ. Từ các mẫu điện thoại mới nhất đến các thiết bị đa dụng, trang web sẽ cung cấp một loạt các lựa chọn để đáp ứng đa dạng nhu cầu của người tiêu dùng.
 
 ![image](https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/135969064/2355695e-bf63-47a3-a46d-3eaa530c5a53)
