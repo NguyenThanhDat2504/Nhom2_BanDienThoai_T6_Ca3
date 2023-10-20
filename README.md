@@ -4,9 +4,9 @@
 
 | Tên                 | Avatar                                | Vai trò          |
 |:------------        |:-------------------------------------:|:----------------:|
-| Lê Võ Long Duy      |<img src="https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/147797810/df91b1ee-088a-49f3-a6ef-9c87a553b168" width="113" height="150">| Teamlead, dev    |
-| Nguyễn Thành Đạt    |<img src="https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/147797810/4a98fb83-da9b-4eff-89d3-f7e23afe8f7f" width="150" height="150">| Scrum master,dev |
-| Nguyễn Đình Nghi    |                                       | Product owner,dev|
+| Lê Võ Long Duy      |<img src="https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/147797810/df91b1ee-088a-49f3-a6ef-9c87a553b168" width="113" height="150">| Teamlead, Dev    |
+| Nguyễn Thành Đạt    |<img src="https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/147797810/4a98fb83-da9b-4eff-89d3-f7e23afe8f7f" width="150" height="150">| SCRUM master, Dev |
+| Nguyễn Đình Nghi    |                                       | Product owner, Dev|
 | Phạm Đình Khôi      |<img src="https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/147797810/05e3bdb0-52a5-461b-bb8d-b2f1c8a43f0a" width="150" height="150">| Dev              |
 
 
