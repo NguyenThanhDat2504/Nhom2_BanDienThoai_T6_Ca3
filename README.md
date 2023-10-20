@@ -1,6 +1,6 @@
 # Nhom2_BanDienThoai_T6_Ca3
 
-Chào mừng mọi người đã đến với nhóm 2 của chúng mình. Chúng mình đang tạo ra một trang web bán điện thoại tên Mobile Tech và những thành viên cùng nhau tạo ra cái trang web này gồm:
+⚡Chào mừng mọi người đã đến với nhóm 2 của chúng mình. Chúng mình đang tạo ra một trang web bán điện thoại tên Mobile Tech và những thành viên cùng nhau tạo ra cái trang web này gồm:⚡
 
 | Tên                 | Avatar                                | Vai trò          |
 |:------------        |:-------------------------------------:|:----------------:|
