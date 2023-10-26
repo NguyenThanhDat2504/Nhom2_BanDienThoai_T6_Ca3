@@ -4,11 +4,14 @@ namespace App\Http\Controllers\Client;
 
 use App\Http\Controllers\Controller;
 use App\Models\Cart;
+use App\Models\Level;
 use App\Models\Order;
 use App\Models\OrderDetail;
 use App\Models\Product;
+use App\Models\User;
 use App\Utils\GenerateId;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class CheckoutController extends Controller
 {
@@ -34,6 +37,15 @@ class CheckoutController extends Controller
         : $item->product->price * $item->quantity;
     }
 
+
+    $user = User::find(session('currentUser')['id']);
+    $userLevel = null;
+    $levels = Level::all();
+    for ($i=0; $i < $levels->count(); $i++) { 
+      if($user->point >= $levels[$i]->target) $userLevel = $levels[$i];
+    }
+
+
     $order = new Order();
     
     $order->id = GenerateId::make('', 8);
@@ -41,8 +53,9 @@ class CheckoutController extends Controller
     $order->name = $request->name;
     $order->phone = $request->phone;
     $order->address = $request->address;
-    $order->total = $totalPrice;
+    $order->total =  $totalPrice - ($totalPrice * $userLevel->discount);
     $order->user_id = session('currentUser')['id'];
+    $order->order_status_id = 1;
 
     $order->save();
 
@@ -58,10 +71,19 @@ class CheckoutController extends Controller
         'product_id' => $item->product->id,
         'order_id' => $order->id
       ]);
+    }
 
+    foreach ($cart as $item) {
+      $item->delete();
+    }
 
+    if($order->total < 10000) {
 
     }
+    $user = User::find(session('currentUser')['id']);
+    $user->point += $order->total / 10000;
+
+    $user->save();
 
     return redirect()->route('checkout.success');
   }

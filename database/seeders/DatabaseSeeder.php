@@ -5,6 +5,7 @@ namespace Database\Seeders;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 use App\Models\Category;
+use App\Models\Level;
 use App\Models\OrderStatus;
 use App\Models\Role;
 use App\Models\User;
@@ -50,12 +51,12 @@ class DatabaseSeeder extends Seeder
             ]);
         }
 
-        $categories = $seedDataDecoded->categories;
-        foreach($categories as $category) {
+        $levels = $seedDataDecoded->categories;
+        foreach($levels as $level) {
             Category::create([
-                'id' => $category->id,
-                'title' => $category->title,
-                'slug' => $category->slug
+                'id' => $level->id,
+                'title' => $level->title,
+                'slug' => $level->slug
             ]);
         }
 
@@ -64,6 +65,16 @@ class DatabaseSeeder extends Seeder
             OrderStatus::create([
                 'id' => $orderStatus->id,
                 'title' => $orderStatus->title,
+            ]);
+        }
+
+        $levels = $seedDataDecoded->levels;
+        foreach($levels as $level) {
+            Level::create([
+                'id' => $level->id,
+                'title' => $level->title,
+                'target' => $level->target,
+                'discount' => $level->discount
             ]);
         }
     }

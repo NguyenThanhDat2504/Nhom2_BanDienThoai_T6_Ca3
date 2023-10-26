@@ -19,9 +19,11 @@ return new class extends Migration
       $table->string('address');
       $table->decimal('total', 18, 2);
       $table->string('user_id', 8);
+      $table->unsignedBigInteger('order_status_id');
       $table->timestamps();
 
       $table->foreign('user_id')->references('id')->on('users');
+      $table->foreign('order_status_id')->references('id')->on('order_statuses');
     });
   }
 

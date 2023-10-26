@@ -5,6 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Product extends Model
 {
@@ -33,7 +34,7 @@ class Product extends Model
     return $this->belongsTo(Category::class, 'category_id', 'id');
   }
 
-  public function orderStatus(): BelongsTo {
-    return $this->belongsTo(OrderStatus::class, 'order_status_id', 'id');
-  }
+  public function reviews(): HasMany {
+    return $this->hasMany(Review::class, 'product_id', 'id');
+}
 }

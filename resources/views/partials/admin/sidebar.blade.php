@@ -56,7 +56,7 @@
 
             {{-- order --}}
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="{{ route('orders.index') }}" class="nav-link">
                 <p>Đơn hàng</p>
               </a>
             </li>
@@ -71,6 +71,26 @@
           </ul>
         </li>
 
+        {{-- Customer Management --}}
+        <li class="nav-item">
+
+          <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-user"></i>
+            <p>Quản lý khách hàng<i class="right fas fa-angle-left"></i></p>
+          </a>
+
+          <ul class="nav nav-treeview">
+
+            {{--level --}}
+            <li class="nav-item">
+              <a href="{{ route('levels.index') }}" class="nav-link">
+                <p>Phân hạng khách khàng</p>
+              </a>
+            </li>
+
+
+          </ul>
+        </li>
       </ul>
     </nav>
 

@@ -28,10 +28,8 @@ return new class extends Migration
       $table->boolean('is_stop')->default(false);
       $table->timestamps();
       $table->unsignedBigInteger('category_id');
-      $table->unsignedBigInteger('order_status_id');
 
       $table->foreign('category_id')->references('id')->on('categories');
-      $table->foreign('order_status_id')->references('id')->on('order_statuses');
     });
   }
 

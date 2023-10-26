@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Client;
 use App\Http\Controllers\Controller;
 use App\Models\Cart;
 use App\Models\Category;
+use App\Models\Level;
 use App\Models\Order;
 use App\Models\OrderDetail;
 use App\Models\Product;
@@ -65,14 +66,31 @@ class PageController extends Controller
         : $item->product->price * $item->quantity;
     }
 
-    return view('client.checkout', compact('user', 'cart', 'totalPrice'));
+
+    $userLevel = null;
+    $levels = Level::all();
+    for ($i=0; $i < $levels->count(); $i++) { 
+      if($user->point >= $levels[$i]->target) $userLevel = $levels[$i];
+    }
+
+    if($userLevel) $totalPrice -= $totalPrice * $userLevel->discount;
+
+    return view('client.checkout', compact('user', 'cart', 'totalPrice', 'userLevel'));
   }
 
 
   public function userInfo() {
     $user = Auth::user();
 
-    return view('client.user-info', compact('user'));
+    $userLevel = null;
+
+    $levels = Level::all();
+
+    for ($i=0; $i < $levels->count(); $i++) { 
+      if($user->point >= $levels[$i]->target) $userLevel = $levels[$i];
+    }
+
+    return view('client.user-info', compact('user', 'userLevel'));
   }
 
 

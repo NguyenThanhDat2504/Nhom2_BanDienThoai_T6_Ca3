@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Admin\LevelController;
+use App\Http\Controllers\Admin\OrderController;
 use App\Http\Controllers\Admin\OrderStatusController;
 use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\Auth\LoginController;
@@ -10,6 +12,7 @@ use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\Client\CartController;
 use App\Http\Controllers\Client\CheckoutController;
 use App\Http\Controllers\Client\PageController;
+use App\Http\Controllers\Client\ReviewController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -52,6 +55,8 @@ route::post('/checkout', [CheckoutController::class, 'store'])->name('checkout.s
 route::get('/checkoutSuccess', [CheckoutController::class, 'checkoutSuccess'])->name('checkout.success');
 
 
+Route::post('reviews/store/{product}', [ReviewController::class, 'store'])->name('reviews.store');
+
 Route::prefix('/admin')->group(function () {
 
   Route::get('/', [DashboardController::class, 'index'])->name('admin.dashboard');
@@ -59,5 +64,7 @@ Route::prefix('/admin')->group(function () {
   Route::resource('products', ProductController::class);
   Route::resource('categories', CategoryController::class);
   Route::resource('orderStatuses', OrderStatusController::class);
+  Route::resource('orders', OrderController::class);
+  Route::resource('levels', LevelController::class);
 
 });

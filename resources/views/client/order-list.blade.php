@@ -48,7 +48,7 @@
                     </div>
 
                     <div>
-                      Chờ xác nhận
+                      {{ $order->orderStatus->title }}
                     </div>
 
                   </div>

@@ -9,9 +9,7 @@ use Illuminate\Support\Str;
 
 class OrderStatusController extends Controller
 {
-  /**
-   * Display a listing of the resource.
-   */
+  
   public function index()
   {
     $orderStatuses =OrderStatus::all();
@@ -27,9 +25,6 @@ class OrderStatusController extends Controller
     return view('admin.orderStatuses.create');
   }
 
-  /**
-   * Store a newly created resource in storage.
-   */
   public function store(Request $request)
   {
     $orderStatus = new OrderStatus();
@@ -42,17 +37,12 @@ class OrderStatusController extends Controller
   }
 
 
-  /**
-   * Show the form for editing the specified resource.
-   */
   public function edit(OrderStatus $orderStatus)
   {
     return view('admin.orderStatuses.edit', compact(['orderStatus']));
   }
 
-  /**
-   * Update the specified resource in storage.
-   */
+ 
   public function update(Request $request, OrderStatus $orderStatus)
   {
     $orderStatus->title = $request->title;
@@ -61,9 +51,7 @@ class OrderStatusController extends Controller
     return redirect()->back()->with('successMessage', 'Cập nhật trạng thái đơn hàng ' . $orderStatus->title . ' thành công');
   }
 
-  /**
-   * Remove the specified resource from storage.
-   */
+  
   public function destroy(OrderStatus $orderStatus)
   {
     $orderStatus->delete();
