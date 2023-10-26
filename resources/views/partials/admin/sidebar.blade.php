@@ -61,6 +61,13 @@
               </a>
             </li>
 
+            {{-- Order status --}}
+            <li class="nav-item">
+              <a href="{{ route('orderStatuses.index') }}" class="nav-link">
+                <p>Trạng thái đơn hàng</p>
+              </a>
+            </li>
+
           </ul>
         </li>
 

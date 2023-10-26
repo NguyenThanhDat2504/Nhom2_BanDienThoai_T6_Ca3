@@ -5,6 +5,7 @@ namespace Database\Seeders;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 use App\Models\Category;
+use App\Models\OrderStatus;
 use App\Models\Role;
 use App\Models\User;
 use Illuminate\Database\Seeder;
@@ -55,6 +56,14 @@ class DatabaseSeeder extends Seeder
                 'id' => $category->id,
                 'title' => $category->title,
                 'slug' => $category->slug
+            ]);
+        }
+
+        $orderStatuses = $seedDataDecoded->orderStatuses;
+        foreach($orderStatuses as $orderStatus) {
+            OrderStatus::create([
+                'id' => $orderStatus->id,
+                'title' => $orderStatus->title,
             ]);
         }
     }

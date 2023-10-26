@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Admin\OrderStatusController;
 use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\LogoutController;
@@ -57,5 +58,6 @@ Route::prefix('/admin')->group(function () {
 
   Route::resource('products', ProductController::class);
   Route::resource('categories', CategoryController::class);
+  Route::resource('orderStatuses', OrderStatusController::class);
 
 });
