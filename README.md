@@ -13,14 +13,13 @@
 ⚡Bạn đang tìm kiếm một nơi để tìm mua những chiếc điện thoại di động hàng đầu từ các thương hiệu uy tín? Bạn muốn trải nghiệm mua sắm trực tuyến mà không cần lo lắng về tính bảo mật và sự thuận tiện? Mobile Tech sẽ là điểm đến hoàn hảo cho bạn!
 
 
-<img src= "https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/135969064/d6a8dc95-28a4-4c08-b000-b701011678ff" width="1000">
+<img src= "https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/135969064/d6a8dc95-28a4-4c08-b000-b701011678ff" width="1012">
 
 # Giới thiệu
 
 ⚡Trong bối cảnh cuộc sống hiện đại, điện thoại di động không chỉ là công cụ liên lạc, mà còn là một phần không thể thiếu của cuộc sống hàng ngày. Dự án này tập trung vào việc mang đến trải nghiệm mua sắm trực tuyến tiện lợi và thú vị cho những người đam mê công nghệ.
 
-
-![image](https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/135969064/ab6f49d6-9329-49aa-b929-a80bd14a849e)
+<img src= "https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/135969064/ab6f49d6-9329-49aa-b929-a80bd14a849e" width="1012">
 
 
 
