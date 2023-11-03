@@ -38,7 +38,7 @@
 ![image](https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/135969064/0437adfe-eef7-4ede-9461-da09afe6fb17)
 
 
-<span style="color: gold;">This text will be red.</span>
+<span style="color: yellow;">This text will be red.</span>
 
 **⚡Tại thời điểm hiện tại, nhóm của chúng mình đã thành công trong việc triển khai những tính năng sau đây:**
 - Đăng ký, đăng nhập, đăng xuất
