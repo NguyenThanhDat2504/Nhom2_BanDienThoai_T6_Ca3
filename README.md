@@ -13,7 +13,7 @@
 ⚡Bạn đang tìm kiếm một nơi để tìm mua những chiếc điện thoại di động hàng đầu từ các thương hiệu uy tín? Bạn muốn trải nghiệm mua sắm trực tuyến mà không cần lo lắng về tính bảo mật và sự thuận tiện? Mobile Tech sẽ là điểm đến hoàn hảo cho bạn!
 
 
-![image](https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/135969064/d6a8dc95-28a4-4c08-b000-b701011678ff)
+<img src= "https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/135969064/d6a8dc95-28a4-4c08-b000-b701011678ff" width="946">
 
 # Giới thiệu
 
