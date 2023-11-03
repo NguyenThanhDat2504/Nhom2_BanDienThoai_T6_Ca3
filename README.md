@@ -26,7 +26,7 @@
 ⚡Trang web này được xây dựng với mục tiêu cung cấp một giao diện thân thiện và dễ sử dụng, giúp người dùng dễ dàng tìm kiếm, so sánh và lựa chọn các sản phẩm di động phù hợp với nhu cầu của họ. Từ các mẫu điện thoại mới nhất đến các thiết bị đa dụng, trang web sẽ cung cấp một loạt các lựa chọn để đáp ứng đa dạng nhu cầu của người tiêu dùng.
 
 
-![image](https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/135969064/2355695e-bf63-47a3-a46d-3eaa530c5a53)
+<img src="https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/135969064/2355695e-bf63-47a3-a46d-3eaa530c5a53" width="1012">
 
 
 ⚡Với giao diện tối giản và trải nghiệm mua sắm thuận tiện, trang web sẽ giúp người dùng dễ dàng thêm sản phẩm vào giỏ hàng, thực hiện thanh toán an toàn và theo dõi quá trình giao hàng. Dự án này không chỉ dừng lại ở mức độ cơ bản, mà còn có tiềm năng để phát triển và nâng cao trải nghiệm người dùng với các tính năng và chức năng tương tác thú vị.
