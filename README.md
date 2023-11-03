@@ -41,13 +41,13 @@
 
 <a href="https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/milestones">
   Các milestone của nhóm mình
-</a>
+</a><br/>
 <a href="https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/issues">
   Các issue của nhóm mình
-</a>
+</a><br/>
 <a href="https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/labels">
   Các label của nhóm mình
-</a>
+</a><br/>
 
 
 
