@@ -15,7 +15,7 @@
 
 <img src= "https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/135969064/d6a8dc95-28a4-4c08-b000-b701011678ff" width="1012">
 
-# Giới thiệu
+# Giới thiệu đề tài
 
 ⚡Trong bối cảnh cuộc sống hiện đại, điện thoại di động không chỉ là công cụ liên lạc, mà còn là một phần không thể thiếu của cuộc sống hàng ngày. Dự án này tập trung vào việc mang đến trải nghiệm mua sắm trực tuyến tiện lợi và thú vị cho những người đam mê công nghệ.
 
