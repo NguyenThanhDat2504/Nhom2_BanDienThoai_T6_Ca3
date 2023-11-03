@@ -38,7 +38,7 @@
 ![image](https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/135969064/0437adfe-eef7-4ede-9461-da09afe6fb17)
 
 
-![button](https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/147797810/96f0ece0-3559-4207-a898-11ed74e1dd2b)
+[![button](https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/147797810/96f0ece0-3559-4207-a898-11ed74e1dd2b)](https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/milestones)
 
 
 **⚡Tại thời điểm hiện tại, nhóm của chúng mình đã thành công trong việc triển khai những tính năng sau đây:**
