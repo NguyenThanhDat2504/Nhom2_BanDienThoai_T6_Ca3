@@ -46,8 +46,10 @@
   Các issue của nhóm mình
 </a><br/>
 <a href="https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/labels">
-  Các label của nhóm mình
-</a><br/>
+  **🔥Các label của nhóm mình**
+</a>
+<br/>
+
 
 
 
