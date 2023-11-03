@@ -26,7 +26,9 @@
 ⚡Trang web này được xây dựng với mục tiêu cung cấp một giao diện thân thiện và dễ sử dụng, giúp người dùng dễ dàng tìm kiếm, so sánh và lựa chọn các sản phẩm di động phù hợp với nhu cầu của họ. Từ các mẫu điện thoại mới nhất đến các thiết bị đa dụng, trang web sẽ cung cấp một loạt các lựa chọn để đáp ứng đa dạng nhu cầu của người tiêu dùng.
 
 
+
 <img src="https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/147797810/b8543aed-b8c1-4df9-b7ca-f35da89d996a" width="1012">
+
 
 
 
@@ -34,6 +36,7 @@
 
 
 ![image](https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/135969064/0437adfe-eef7-4ede-9461-da09afe6fb17)
+
 
 **⚡Tại thời điểm hiện tại, nhóm của chúng mình đã thành công trong việc triển khai những tính năng sau đây:**
 - Đăng ký, đăng nhập, đăng xuất
