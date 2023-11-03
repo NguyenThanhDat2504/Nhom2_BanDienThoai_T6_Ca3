@@ -39,20 +39,6 @@
 
 
 
-<a href="https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/milestones">
-  Các milestone của nhóm mình
-</a><br/>
-<a href="https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/issues">
-  Các issue của nhóm mình
-</a><br/>
-<a href="https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/labels">
-  **🔥Các label của nhóm mình**
-</a>
-<br/>
-
-
-
-
 **⚡Tại thời điểm hiện tại, nhóm của chúng mình đã thành công trong việc triển khai những tính năng sau đây:**
 - Đăng ký, đăng nhập, đăng xuất
 - Xem trang chủ
@@ -72,6 +58,23 @@
 <br>
 <img src="https://cdn-icons-png.flaticon.com/512/5968/5968332.png" width="50" height="50">
 <img src="https://seeklogo.com/images/L/laragon-logo-D8819D2A8F-seeklogo.com.png" width="50" height="50">
+
+<br/>
+
+<a href="https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/milestones">
+  🔥Các milestone của nhóm mình
+</a><br/>
+<a href="https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/issues">
+  🔥Các issue của nhóm mình
+</a><br/>
+<a href="https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/labels">
+  🔥Các label của nhóm mình
+</a>
+
+
+
+
+
 
 
 
