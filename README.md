@@ -38,12 +38,18 @@
 ![image](https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/assets/135969064/0437adfe-eef7-4ede-9461-da09afe6fb17)
 
 
-[![button](https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/milestones)]
-
 
 <a href="https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/milestones">
-  Go to Milestone!
+  Các milestone của nhóm mình
 </a>
+<a href="https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/issues">
+  Các issue của nhóm mình
+</a>
+<a href="https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/labels">
+  Các label của nhóm mình
+</a>
+
+
 
 **⚡Tại thời điểm hiện tại, nhóm của chúng mình đã thành công trong việc triển khai những tính năng sau đây:**
 - Đăng ký, đăng nhập, đăng xuất
