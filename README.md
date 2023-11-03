@@ -41,6 +41,10 @@
 [![button](https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/milestones)]
 
 
+<a href="https://github.com/NguyenThanhDat2504/Nhom2_BanDienThoai_T6_Ca3/milestones">
+  Go to Milestone!
+</a>
+
 **⚡Tại thời điểm hiện tại, nhóm của chúng mình đã thành công trong việc triển khai những tính năng sau đây:**
 - Đăng ký, đăng nhập, đăng xuất
 - Xem trang chủ
