@@ -3,11 +3,10 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use App\Models\Category;
 use App\Models\Order;
 use App\Models\OrderStatus;
+use App\Models\User;
 use Illuminate\Http\Request;
-use Illuminate\Support\Str;
 
 class OrderController extends Controller
 {
@@ -32,6 +31,13 @@ class OrderController extends Controller
   {
     $order->order_status_id = $request->status;
     $order->save();
+
+    if($request->status == 3) {
+      $user = User::find($order->user_id);
+      $user->point += $order->total / 10000;
+
+      $user->save();
+    }
 
     return redirect()->back()->with('successMessage', 'Cập nhật trạng thái đơn hàng ' . $order->code . ' thành công');
   }

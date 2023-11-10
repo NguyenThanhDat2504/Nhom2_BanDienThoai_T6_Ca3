@@ -39,7 +39,8 @@
             <h3 class="mb-4">Thông tin tài khoản</h3>
             
             <div class="mb-4">
-              Điểm: <b>{{ $user->point }}</b> - Hạng: <b>{{ $userLevel->title }}</b>
+              Điểm: <b>{{ $user->point }}</b>
+               {{-- - Hạng: <b>{{ $userLevel->title }}</b> --}}
             </div>
 
             <div class="form-group">

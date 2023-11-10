@@ -72,6 +72,7 @@
         <div class="product_details">
           <div class="product_details_title">
             <h2>{{ $product->title }}</h2>
+            <p>Số lượng: {{ $product->quantity }}</p>
             <p>{{ $product->description }}</p>
           </div>
           <div class="free_delivery d-flex flex-row align-items-center justify-content-center">
@@ -241,6 +242,10 @@
         .then(data => {
           if (data.status) {
             alert("Thêm sản phẩm vào giỏ hàng thành công");
+            window.location.href = '{{ route('client.detail', ['slug' => $product->slug]) }}'
+          }
+          else {
+            alert("Số lượng sản phẩm không đủ");
             window.location.href = '{{ route('client.detail', ['slug' => $product->slug]) }}'
           }
         })

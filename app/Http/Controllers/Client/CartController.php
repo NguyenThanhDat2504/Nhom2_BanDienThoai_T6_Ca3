@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Client;
 
 use App\Http\Controllers\Controller;
 use App\Models\Cart;
+use App\Models\Product;
 use Illuminate\Http\Request;
 
 class CartController extends Controller
@@ -16,6 +17,16 @@ class CartController extends Controller
   public function addToCart(Request $request) {
     $quantity = (int)$request->query('quantity');
     $product = (int)$request->query('product');
+
+    
+    $isStock = Product::find($product)->quantity;
+    
+    if($quantity > $isStock) {
+      return [
+        'status' => false
+      ];
+    }
+
 
     $cart = Cart
     ::where('user_id', session('currentUser')['id'])

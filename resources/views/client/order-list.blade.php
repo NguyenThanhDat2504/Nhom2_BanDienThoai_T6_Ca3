@@ -44,12 +44,10 @@
 
                     <div>
                       <div style="font-size: 1.1rem; font-weight: bold">{{ $order->code }}</div>
-                      <div style="font-size: 0.8rem">{{ date_format($order->created_at, 'd/m/Y - H:m:s') }}</div>
+                      <div style="font-size: 0.8rem">{{ date_format($order->created_at, 'd/m/Y - H:i:s') }}</div>
                     </div>
 
-                    <div>
-                      {{ $order->orderStatus->title }}
-                    </div>
+                    <div>{{ $order->orderStatus->title }}</div>
 
                   </div>
                 </div>
@@ -63,7 +61,10 @@
                         <div class="d-flex">
                           <img src="{{ $product->cover }}" alt="" height="60" width="60" class="mr-2">
                           <div>
-                            <b>{{ $product->title }}</b> X {{ $product->pivot->quantity }}<br>
+                            <b>
+                              <a href="{{ route('client.detail', ['slug' => $product->slug]) }}" class="text-dark">{{ $product->title }}</a>
+                            </b> 
+                            X {{ $product->pivot->quantity }}<br>
                             <span>{{ $product->category->title }}</span><br>
                           </div>
                         </div>

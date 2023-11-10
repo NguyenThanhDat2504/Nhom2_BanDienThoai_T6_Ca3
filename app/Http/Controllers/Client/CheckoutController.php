@@ -53,7 +53,7 @@ class CheckoutController extends Controller
     $order->name = $request->name;
     $order->phone = $request->phone;
     $order->address = $request->address;
-    $order->total =  $totalPrice - ($totalPrice * $userLevel->discount);
+    $order->total =  $userLevel ? $totalPrice - ($totalPrice * $userLevel->discount) : $totalPrice;
     $order->user_id = session('currentUser')['id'];
     $order->order_status_id = 1;
 
@@ -77,13 +77,10 @@ class CheckoutController extends Controller
       $item->delete();
     }
 
-    if($order->total < 10000) {
+    // $user = User::find(session('currentUser')['id']);
+    // $user->point += $order->total / 10000;
 
-    }
-    $user = User::find(session('currentUser')['id']);
-    $user->point += $order->total / 10000;
-
-    $user->save();
+    // $user->save();
 
     return redirect()->route('checkout.success');
   }

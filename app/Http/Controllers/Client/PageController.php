@@ -7,7 +7,6 @@ use App\Models\Cart;
 use App\Models\Category;
 use App\Models\Level;
 use App\Models\Order;
-use App\Models\OrderDetail;
 use App\Models\Product;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -82,13 +81,20 @@ class PageController extends Controller
   public function userInfo() {
     $user = Auth::user();
 
-    $userLevel = null;
+    $userLevel = new Level();
 
     $levels = Level::all();
 
-    for ($i=0; $i < $levels->count(); $i++) { 
-      if($user->point >= $levels[$i]->target) $userLevel = $levels[$i];
+    for ($i=0; $i < $levels->count() - 1; $i++) { 
+      if($user->point >= $levels[$i]->target) {
+        $userLevel = $levels[$i];
+        
+        break;
+      }
+
+      $userLevel->title = "Chưa có hạng";
     }
+
 
     return view('client.user-info', compact('user', 'userLevel'));
   }
@@ -156,7 +162,7 @@ class PageController extends Controller
   
   public function orderList() {
 
-    $orders = Order::where('user_id', session('currentUser')['id'])->get();
+    $orders = Order::where('user_id', session('currentUser')['id'])->latest()->get();
 
 
     return view('client.order-list', compact('orders'));
