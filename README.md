@@ -47,8 +47,6 @@
 - Đặt hàng và xem đơn hàng
 - Quản lý giỏ hàng theo CRUD
 - Thay đổi thông tin cá nhân
-
-**⚡Hiện tại, nhóm chúng mình đang tập trung vào việc phát triển những chức năng sau đây:**
 - Thay đổi mật khẩu
 - Đánh giá sản phẩm đã mua
 - Quản lý đơn hàng
